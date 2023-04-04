@@ -6,4 +6,10 @@ export interface Article {
   urlToImage: string,
   publishedAt: string,
   content: string,
+  source: Source
+}
+
+export interface Source {
+  id?: string,
+  name: string
 }
